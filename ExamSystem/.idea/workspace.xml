@@ -1,0 +1,1884 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ArtifactsWorkspaceSettings">
+    <artifacts-to-build>
+      <artifact name="web:war exploded" />
+    </artifacts-to-build>
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" readonly="true" id="82074870-1dce-4dea-8d96-2ba5dc283d2d" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$" afterDir="true" />
+      <change afterPath="$PROJECT_DIR$/.idea" afterDir="true" />
+      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources" afterDir="true" />
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources/e4de941a-1d9a-45b6-b5e8-0599fffb825b.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ExamSystem.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dao" afterDir="true" />
+      <change afterPath="$PROJECT_DIR$/dao/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dao/src" afterDir="true" />
+      <change afterPath="$PROJECT_DIR$/dao/src/main" afterDir="true" />
+      <change afterPath="$PROJECT_DIR$/dao/src/main/java" afterDir="true" />
+      <change afterPath="$PROJECT_DIR$/dao/src/main/java/com" afterDir="true" />
+      <change afterPath="$PROJECT_DIR$/dao/src/main/java/com/jf" afterDir="true" />
+      <change afterPath="$PROJECT_DIR$/dao/src/main/java/com/jf/exam" afterDir="true" />
+      <change afterPath="$PROJECT_DIR$/dao/src/main/java/com/jf/exam/mapper" afterDir="true" />
+      <change afterPath="$PROJECT_DIR$/dao/src/main/java/com/jf/exam/mapper/ClassMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dao/src/main/java/com/jf/exam/mapper/ExamClassMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dao/src/main/java/com/jf/exam/mapper/ExamMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dao/src/main/java/com/jf/exam/mapper/ExamQuestionMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dao/src/main/java/com/jf/exam/mapper/ExaminationResulquestionMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dao/src/main/java/com/jf/exam/mapper/ExaminationResultMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dao/src/main/java/com/jf/exam/mapper/GradeMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dao/src/main/java/com/jf/exam/mapper/MajorMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dao/src/main/java/com/jf/exam/mapper/ManagerMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dao/src/main/java/com/jf/exam/mapper/QuestionChoiceMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dao/src/main/java/com/jf/exam/mapper/QuestionJudgeMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dao/src/main/java/com/jf/exam/mapper/QuestionTypeMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dao/src/main/java/com/jf/exam/mapper/StudentMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dao/src/main/java/com/jf/exam/mapper/TeacherMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dao/src/main/resources" afterDir="true" />
+      <change afterPath="$PROJECT_DIR$/dao/src/main/resources/mapper" afterDir="true" />
+      <change afterPath="$PROJECT_DIR$/dao/src/main/resources/mapper/ClassMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dao/src/main/resources/mapper/ExamClassMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dao/src/main/resources/mapper/ExamMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dao/src/main/resources/mapper/ExamQuestionMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dao/src/main/resources/mapper/ExaminationResulquestionMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dao/src/main/resources/mapper/ExaminationResultMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dao/src/main/resources/mapper/GradeMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dao/src/main/resources/mapper/MajorMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dao/src/main/resources/mapper/ManagerMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dao/src/main/resources/mapper/QuestionChoiceMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dao/src/main/resources/mapper/QuestionJudgeMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dao/src/main/resources/mapper/QuestionTypeMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dao/src/main/resources/mapper/StudentMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dao/src/main/resources/mapper/TeacherMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dao/src/main/resources/rebel.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dao/src/test" afterDir="true" />
+      <change afterPath="$PROJECT_DIR$/dao/src/test/java" afterDir="true" />
+      <change afterPath="$PROJECT_DIR$/pojo" afterDir="true" />
+      <change afterPath="$PROJECT_DIR$/pojo/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pojo/src" afterDir="true" />
+      <change afterPath="$PROJECT_DIR$/pojo/src/main" afterDir="true" />
+      <change afterPath="$PROJECT_DIR$/pojo/src/main/java" afterDir="true" />
+      <change afterPath="$PROJECT_DIR$/pojo/src/main/java/com" afterDir="true" />
+      <change afterPath="$PROJECT_DIR$/pojo/src/main/java/com/jf" afterDir="true" />
+      <change afterPath="$PROJECT_DIR$/pojo/src/main/java/com/jf/exam" afterDir="true" />
+      <change afterPath="$PROJECT_DIR$/pojo/src/main/java/com/jf/exam/mapper" afterDir="true" />
+      <change afterPath="$PROJECT_DIR$/pojo/src/main/java/com/jf/exam/mapper/StudentMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pojo/src/main/java/com/jf/exam/mapper/StudentMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pojo/src/main/java/com/jf/exam/mapper/TeacherMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pojo/src/main/java/com/jf/exam/mapper/TeacherMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pojo/src/main/java/com/jf/exam/pojo" afterDir="true" />
+      <change afterPath="$PROJECT_DIR$/pojo/src/main/java/com/jf/exam/pojo/BaseUser.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pojo/src/main/java/com/jf/exam/pojo/Grade.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pojo/src/main/java/com/jf/exam/pojo/GradeExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pojo/src/main/java/com/jf/exam/pojo/Manager.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pojo/src/main/java/com/jf/exam/pojo/ManagerExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pojo/src/main/java/com/jf/exam/pojo/StatisticsData.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pojo/src/main/java/com/jf/exam/pojo/Student.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pojo/src/main/java/com/jf/exam/pojo/StudentExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pojo/src/main/java/com/jf/exam/pojo/Teacher.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pojo/src/main/java/com/jf/exam/pojo/TeacherExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pojo/src/main/java/com/jf/exam/pojo/data" afterDir="true" />
+      <change afterPath="$PROJECT_DIR$/pojo/src/main/java/com/jf/exam/pojo/data/ClassDO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pojo/src/main/java/com/jf/exam/pojo/data/ExamClassDO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pojo/src/main/java/com/jf/exam/pojo/data/ExamDO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pojo/src/main/java/com/jf/exam/pojo/data/ExamQuestionDO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pojo/src/main/java/com/jf/exam/pojo/data/ExaminationResulquestionDO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pojo/src/main/java/com/jf/exam/pojo/data/ExaminationResultDO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pojo/src/main/java/com/jf/exam/pojo/data/GradeDO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pojo/src/main/java/com/jf/exam/pojo/data/MajorDO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pojo/src/main/java/com/jf/exam/pojo/data/ManagerDO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pojo/src/main/java/com/jf/exam/pojo/data/QuestionChoiceDO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pojo/src/main/java/com/jf/exam/pojo/data/QuestionDO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pojo/src/main/java/com/jf/exam/pojo/data/QuestionJudgeDO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pojo/src/main/java/com/jf/exam/pojo/data/QuestionTypeDO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pojo/src/main/java/com/jf/exam/pojo/data/StudentDO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pojo/src/main/java/com/jf/exam/pojo/data/TeacherDO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pojo/src/main/java/com/jf/exam/pojo/vo" afterDir="true" />
+      <change afterPath="$PROJECT_DIR$/pojo/src/main/java/com/jf/exam/pojo/vo/BeginExamVO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pojo/src/main/java/com/jf/exam/pojo/vo/ClassListVO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pojo/src/main/java/com/jf/exam/pojo/vo/ClassVO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pojo/src/main/java/com/jf/exam/pojo/vo/ExamAnswerQuestions.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pojo/src/main/java/com/jf/exam/pojo/vo/ExamAnswerVO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pojo/src/main/java/com/jf/exam/pojo/vo/ExamClassVO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pojo/src/main/java/com/jf/exam/pojo/vo/ExamDetailsVO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pojo/src/main/java/com/jf/exam/pojo/vo/ExamQuestionVO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pojo/src/main/java/com/jf/exam/pojo/vo/ExamResultViewVO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pojo/src/main/java/com/jf/exam/pojo/vo/ExamVO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pojo/src/main/java/com/jf/exam/pojo/vo/ExaminationResulquestionVO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pojo/src/main/java/com/jf/exam/pojo/vo/ExaminationResultVO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pojo/src/main/java/com/jf/exam/pojo/vo/GradeVO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pojo/src/main/java/com/jf/exam/pojo/vo/MajorVO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pojo/src/main/java/com/jf/exam/pojo/vo/ManageVO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pojo/src/main/java/com/jf/exam/pojo/vo/Query.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pojo/src/main/java/com/jf/exam/pojo/vo/QuestAddVO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pojo/src/main/java/com/jf/exam/pojo/vo/QuestionBankVO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pojo/src/main/java/com/jf/exam/pojo/vo/QuestionChoiceVO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pojo/src/main/java/com/jf/exam/pojo/vo/QuestionJudgeVO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pojo/src/main/java/com/jf/exam/pojo/vo/QuestionListVO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pojo/src/main/java/com/jf/exam/pojo/vo/QuestionManageQuery.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pojo/src/main/java/com/jf/exam/pojo/vo/QuestionManageVO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pojo/src/main/java/com/jf/exam/pojo/vo/QuestionTypeVO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pojo/src/main/java/com/jf/exam/pojo/vo/QuestionVO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pojo/src/main/java/com/jf/exam/pojo/vo/StudentExamResultVO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pojo/src/main/java/com/jf/exam/pojo/vo/StudentListVO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pojo/src/main/java/com/jf/exam/pojo/vo/StudentReportVO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pojo/src/main/java/com/jf/exam/pojo/vo/StudentVO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pojo/src/main/java/com/jf/exam/pojo/vo/TeacherClassVO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pojo/src/main/java/com/jf/exam/pojo/vo/TeacherVO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pojo/src/main/java/com/jf/exam/pojo/vo/TypesVO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pojo/src/main/resources" afterDir="true" />
+      <change afterPath="$PROJECT_DIR$/pojo/src/main/resources/generatorConfig.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pojo/src/main/resources/rebel.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pojo/src/test" afterDir="true" />
+      <change afterPath="$PROJECT_DIR$/pojo/src/test/java" afterDir="true" />
+      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service" afterDir="true" />
+      <change afterPath="$PROJECT_DIR$/service/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service/src" afterDir="true" />
+      <change afterPath="$PROJECT_DIR$/service/src/main" afterDir="true" />
+      <change afterPath="$PROJECT_DIR$/service/src/main/java" afterDir="true" />
+      <change afterPath="$PROJECT_DIR$/service/src/main/java/com" afterDir="true" />
+      <change afterPath="$PROJECT_DIR$/service/src/main/java/com/jf" afterDir="true" />
+      <change afterPath="$PROJECT_DIR$/service/src/main/java/com/jf/exam" afterDir="true" />
+      <change afterPath="$PROJECT_DIR$/service/src/main/java/com/jf/exam/service" afterDir="true" />
+      <change afterPath="$PROJECT_DIR$/service/src/main/java/com/jf/exam/service/ClassService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service/src/main/java/com/jf/exam/service/ExamClassService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service/src/main/java/com/jf/exam/service/ExamQuestionService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service/src/main/java/com/jf/exam/service/ExamService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service/src/main/java/com/jf/exam/service/ExaminationResultService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service/src/main/java/com/jf/exam/service/GradeService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service/src/main/java/com/jf/exam/service/MajorService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service/src/main/java/com/jf/exam/service/ManageService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service/src/main/java/com/jf/exam/service/ManagerGradeService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service/src/main/java/com/jf/exam/service/ManagerService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service/src/main/java/com/jf/exam/service/QuestionChoiceService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service/src/main/java/com/jf/exam/service/QuestionJudgeService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service/src/main/java/com/jf/exam/service/QuestionService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service/src/main/java/com/jf/exam/service/QuestionTypeService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service/src/main/java/com/jf/exam/service/StudentService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service/src/main/java/com/jf/exam/service/TeacherService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service/src/main/java/com/jf/exam/service/impl" afterDir="true" />
+      <change afterPath="$PROJECT_DIR$/service/src/main/java/com/jf/exam/service/impl/ClassServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service/src/main/java/com/jf/exam/service/impl/ExamClassServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service/src/main/java/com/jf/exam/service/impl/ExamQuestionServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service/src/main/java/com/jf/exam/service/impl/ExamServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service/src/main/java/com/jf/exam/service/impl/ExaminationResultServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service/src/main/java/com/jf/exam/service/impl/GradeServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service/src/main/java/com/jf/exam/service/impl/MajorServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service/src/main/java/com/jf/exam/service/impl/ManagerServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service/src/main/java/com/jf/exam/service/impl/QuestionChoiceServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service/src/main/java/com/jf/exam/service/impl/QuestionJudgeServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service/src/main/java/com/jf/exam/service/impl/QuestionServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service/src/main/java/com/jf/exam/service/impl/QuestionTypeServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service/src/main/java/com/jf/exam/service/impl/StudentServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service/src/main/java/com/jf/exam/service/impl/TeacherServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service/src/main/resources" afterDir="true" />
+      <change afterPath="$PROJECT_DIR$/service/src/main/resources/rebel.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service/src/test" afterDir="true" />
+      <change afterPath="$PROJECT_DIR$/service/src/test/java" afterDir="true" />
+      <change afterPath="$PROJECT_DIR$/src" afterDir="true" />
+      <change afterPath="$PROJECT_DIR$/src/main" afterDir="true" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources" afterDir="true" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/rebel.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/utils" afterDir="true" />
+      <change afterPath="$PROJECT_DIR$/utils/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/utils/src" afterDir="true" />
+      <change afterPath="$PROJECT_DIR$/utils/src/main" afterDir="true" />
+      <change afterPath="$PROJECT_DIR$/utils/src/main/java" afterDir="true" />
+      <change afterPath="$PROJECT_DIR$/utils/src/main/java/com" afterDir="true" />
+      <change afterPath="$PROJECT_DIR$/utils/src/main/java/com/jf" afterDir="true" />
+      <change afterPath="$PROJECT_DIR$/utils/src/main/java/com/jf/exam" afterDir="true" />
+      <change afterPath="$PROJECT_DIR$/utils/src/main/java/com/jf/exam/utils" afterDir="true" />
+      <change afterPath="$PROJECT_DIR$/utils/src/main/java/com/jf/exam/utils/AnswerUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/utils/src/main/java/com/jf/exam/utils/DataUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/utils/src/main/java/com/jf/exam/utils/ExamUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/utils/src/main/java/com/jf/exam/utils/PageBean.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/utils/src/main/java/com/jf/exam/utils/QuestionType.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/utils/src/main/java/com/jf/exam/utils/Result.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/utils/src/main/java/com/jf/exam/utils/SendCodeUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/utils/src/main/java/com/jf/exam/utils/SmsUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/utils/src/main/java/com/jf/exam/utils/WYYTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/utils/src/main/java/com/jf/exam/utils/exception" afterDir="true" />
+      <change afterPath="$PROJECT_DIR$/utils/src/main/java/com/jf/exam/utils/exception/AppExceptionHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/utils/src/main/java/com/jf/exam/utils/exception/BusinessException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/utils/src/main/java/com/jf/exam/utils/exception/PageCodeException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/utils/src/main/java/com/jf/exam/utils/exception/ParameterException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/utils/src/main/java/com/jf/exam/utils/exception/RestfulPageCodeException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/utils/src/main/java/com/jf/exam/utils/randomUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/utils/src/main/resources" afterDir="true" />
+      <change afterPath="$PROJECT_DIR$/utils/src/main/resources/rebel.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/utils/src/test" afterDir="true" />
+      <change afterPath="$PROJECT_DIR$/utils/src/test/java" afterDir="true" />
+      <change afterPath="$PROJECT_DIR$/web" afterDir="true" />
+      <change afterPath="$PROJECT_DIR$/web/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/src" afterDir="true" />
+      <change afterPath="$PROJECT_DIR$/web/src/main" afterDir="true" />
+      <change afterPath="$PROJECT_DIR$/web/src/main/java" afterDir="true" />
+      <change afterPath="$PROJECT_DIR$/web/src/main/java/com" afterDir="true" />
+      <change afterPath="$PROJECT_DIR$/web/src/main/java/com/jf" afterDir="true" />
+      <change afterPath="$PROJECT_DIR$/web/src/main/java/com/jf/exam" afterDir="true" />
+      <change afterPath="$PROJECT_DIR$/web/src/main/java/com/jf/exam/controller" afterDir="true" />
+      <change afterPath="$PROJECT_DIR$/web/src/main/java/com/jf/exam/controller/AdminController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/src/main/java/com/jf/exam/controller/CaptchaImageCreateController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/src/main/java/com/jf/exam/controller/LoginController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/src/main/java/com/jf/exam/controller/SendCode.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/src/main/java/com/jf/exam/controller/base" afterDir="true" />
+      <change afterPath="$PROJECT_DIR$/web/src/main/java/com/jf/exam/controller/base/BaseController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/src/main/java/com/jf/exam/controller/common" afterDir="true" />
+      <change afterPath="$PROJECT_DIR$/web/src/main/java/com/jf/exam/controller/common/ClazzController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/src/main/java/com/jf/exam/controller/common/GradeController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/src/main/java/com/jf/exam/controller/common/MajorController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/src/main/java/com/jf/exam/controller/manage" afterDir="true" />
+      <change afterPath="$PROJECT_DIR$/web/src/main/java/com/jf/exam/controller/manage/ManagerClassController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/src/main/java/com/jf/exam/controller/manage/ManagerGradeController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/src/main/java/com/jf/exam/controller/manage/ManagerMajorController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/src/main/java/com/jf/exam/controller/manage/ManagerStudentController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/src/main/java/com/jf/exam/controller/manage/ManagerTeacherController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/src/main/java/com/jf/exam/controller/student" afterDir="true" />
+      <change afterPath="$PROJECT_DIR$/web/src/main/java/com/jf/exam/controller/student/ExamResultController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/src/main/java/com/jf/exam/controller/student/StudentExamController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/src/main/java/com/jf/exam/controller/student/StudentIndexController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/src/main/java/com/jf/exam/controller/teacher" afterDir="true" />
+      <change afterPath="$PROJECT_DIR$/web/src/main/java/com/jf/exam/controller/teacher/TeacherClazzController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/src/main/java/com/jf/exam/controller/teacher/TeacherExamController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/src/main/java/com/jf/exam/controller/teacher/TeacherQuestionController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/src/main/java/com/jf/exam/controller/test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/src/main/java/com/jf/exam/shiro" afterDir="true" />
+      <change afterPath="$PROJECT_DIR$/web/src/main/java/com/jf/exam/shiro/UserRealm.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/src/main/java/com/jf/exam/shiro/UsernamePasswordTypeToken.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/src/main/resources" afterDir="true" />
+      <change afterPath="$PROJECT_DIR$/web/src/main/resources/config.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/src/main/resources/db.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/src/main/resources/mybatis-config.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/src/main/resources/rebel.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/src/main/resources/spring" afterDir="true" />
+      <change afterPath="$PROJECT_DIR$/web/src/main/resources/spring/spring-mvc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/src/main/resources/spring/spring-mybatis.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/src/main/resources/spring/spring-shiro.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/src/main/resources/spring/spring-web.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/src/main/webapp" afterDir="true" />
+      <change afterPath="$PROJECT_DIR$/web/src/main/webapp/WEB-INF" afterDir="true" />
+      <change afterPath="$PROJECT_DIR$/web/src/main/webapp/WEB-INF/view" afterDir="true" />
+      <change afterPath="$PROJECT_DIR$/web/src/main/webapp/WEB-INF/view/Smm.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/src/main/webapp/WEB-INF/view/admin" afterDir="true" />
+      <change afterPath="$PROJECT_DIR$/web/src/main/webapp/WEB-INF/view/admin/clazz_list.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/src/main/webapp/WEB-INF/view/admin/grade_list.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/src/main/webapp/WEB-INF/view/admin/index.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/src/main/webapp/WEB-INF/view/admin/major_list.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/src/main/webapp/WEB-INF/view/admin/password.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/src/main/webapp/WEB-INF/view/admin/share" afterDir="true" />
+      <change afterPath="$PROJECT_DIR$/web/src/main/webapp/WEB-INF/view/admin/share/head.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/src/main/webapp/WEB-INF/view/admin/share/left.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/src/main/webapp/WEB-INF/view/admin/student_list.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/src/main/webapp/WEB-INF/view/admin/sys_setting.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/src/main/webapp/WEB-INF/view/admin/teacher_list.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/src/main/webapp/WEB-INF/view/error.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/src/main/webapp/WEB-INF/view/hh.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/src/main/webapp/WEB-INF/view/login.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/src/main/webapp/WEB-INF/view/share" afterDir="true" />
+      <change afterPath="$PROJECT_DIR$/web/src/main/webapp/WEB-INF/view/share/head.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/src/main/webapp/WEB-INF/view/share/page.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/src/main/webapp/WEB-INF/view/ss.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/src/main/webapp/WEB-INF/view/student" afterDir="true" />
+      <change afterPath="$PROJECT_DIR$/web/src/main/webapp/WEB-INF/view/student/exam_list.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/src/main/webapp/WEB-INF/view/student/exam_take.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/src/main/webapp/WEB-INF/view/student/examinationResult_list.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/src/main/webapp/WEB-INF/view/student/examinationResult_view.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/src/main/webapp/WEB-INF/view/student/index.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/src/main/webapp/WEB-INF/view/student/password.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/src/main/webapp/WEB-INF/view/student/share" afterDir="true" />
+      <change afterPath="$PROJECT_DIR$/web/src/main/webapp/WEB-INF/view/student/share/head.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/src/main/webapp/WEB-INF/view/student/share/left.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/src/main/webapp/WEB-INF/view/success.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/src/main/webapp/WEB-INF/view/teacher" afterDir="true" />
+      <change afterPath="$PROJECT_DIR$/web/src/main/webapp/WEB-INF/view/teacher/download.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/src/main/webapp/WEB-INF/view/teacher/exam_add.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/src/main/webapp/WEB-INF/view/teacher/exam_list.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/src/main/webapp/WEB-INF/view/teacher/index.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/src/main/webapp/WEB-INF/view/teacher/password.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/src/main/webapp/WEB-INF/view/teacher/question_list.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/src/main/webapp/WEB-INF/view/teacher/question_manage.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/src/main/webapp/WEB-INF/view/teacher/share" afterDir="true" />
+      <change afterPath="$PROJECT_DIR$/web/src/main/webapp/WEB-INF/view/teacher/share/head.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/src/main/webapp/WEB-INF/view/teacher/share/left.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/src/main/webapp/WEB-INF/view/teacher/statistics.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/src/main/webapp/WEB-INF/view/valid.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/src/main/webapp/image.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/src/main/webapp/index.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/src/main/webapp/static" afterDir="true" />
+      <change afterPath="$PROJECT_DIR$/web/src/main/webapp/static/bootstrap" afterDir="true" />
+      <change afterPath="$PROJECT_DIR$/web/src/main/webapp/static/bootstrap/css" afterDir="true" />
+      <change afterPath="$PROJECT_DIR$/web/src/main/webapp/static/bootstrap/css/bootstrap-admin-theme.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/src/main/webapp/static/bootstrap/css/bootstrap-theme.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/src/main/webapp/static/bootstrap/css/bootstrap-theme.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/src/main/webapp/static/bootstrap/css/bootstrap.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/src/main/webapp/static/bootstrap/css/bootstrap.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/src/main/webapp/static/bootstrap/fonts" afterDir="true" />
+      <change afterPath="$PROJECT_DIR$/web/src/main/webapp/static/bootstrap/fonts/glyphicons-halflings-regular.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/src/main/webapp/static/bootstrap/fonts/glyphicons-halflings-regular.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/src/main/webapp/static/bootstrap/fonts/glyphicons-halflings-regular.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/src/main/webapp/static/bootstrap/js" afterDir="true" />
+      <change afterPath="$PROJECT_DIR$/web/src/main/webapp/static/bootstrap/js/bootstrap.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/src/main/webapp/static/bootstrap/js/npm.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/src/main/webapp/static/css" afterDir="true" />
+      <change afterPath="$PROJECT_DIR$/web/src/main/webapp/static/css/exam.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/src/main/webapp/static/css/head.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/src/main/webapp/static/css/list_main.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/src/main/webapp/static/css/login.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/src/main/webapp/static/css/modal.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/src/main/webapp/static/css/student" afterDir="true" />
+      <change afterPath="$PROJECT_DIR$/web/src/main/webapp/static/css/student/exam_list.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/src/main/webapp/static/css/student/exam_take.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/src/main/webapp/static/css/teacher" afterDir="true" />
+      <change afterPath="$PROJECT_DIR$/web/src/main/webapp/static/css/teacher/statistics.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/src/main/webapp/static/css/tips.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/src/main/webapp/static/images" afterDir="true" />
+      <change afterPath="$PROJECT_DIR$/web/src/main/webapp/static/images/error.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/src/main/webapp/static/images/exam.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/src/main/webapp/static/images/icno.ico" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/src/main/webapp/static/images/logo.ico" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/src/main/webapp/static/images/success.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/src/main/webapp/static/images/wait.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/src/main/webapp/static/images/warn.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/src/main/webapp/static/script" afterDir="true" />
+      <change afterPath="$PROJECT_DIR$/web/src/main/webapp/static/script/admin" afterDir="true" />
+      <change afterPath="$PROJECT_DIR$/web/src/main/webapp/static/script/admin/clazz.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/src/main/webapp/static/script/admin/grade.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/src/main/webapp/static/script/admin/major.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/src/main/webapp/static/script/admin/student.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/src/main/webapp/static/script/admin/sys_setting.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/src/main/webapp/static/script/admin/teacher.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/src/main/webapp/static/script/jquery-1.11.1.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/src/main/webapp/static/script/json2.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/src/main/webapp/static/script/login.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/src/main/webapp/static/script/smscode.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/src/main/webapp/static/script/student" afterDir="true" />
+      <change afterPath="$PROJECT_DIR$/web/src/main/webapp/static/script/student/exam_take.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/src/main/webapp/static/script/teacher" afterDir="true" />
+      <change afterPath="$PROJECT_DIR$/web/src/main/webapp/static/script/teacher/exam.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/src/main/webapp/static/script/teacher/exam_list.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/src/main/webapp/static/script/teacher/question.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/src/main/webapp/static/script/teacher/question_manage.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/src/main/webapp/static/script/teacher/statistics.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/src/main/webapp/static/script/time.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/src/main/webapp/static/script/tips.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/src/main/webapp/static/script/分享.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/src/main/webapp/static/分享.jsp" afterDir="false" />
+    </list>
+    <ignored path="$PROJECT_DIR$/out/" />
+    <ignored path="$PROJECT_DIR$/target/" />
+    <ignored path="$PROJECT_DIR$/utils/target/" />
+    <ignored path="$PROJECT_DIR$/pojo/target/" />
+    <ignored path="$PROJECT_DIR$/dao/target/" />
+    <ignored path="$PROJECT_DIR$/service/target/" />
+    <ignored path="$PROJECT_DIR$/web/target/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="examsystem@localhost" type="feb32156:DbDataSourceImpl" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="examsystem@localhost" type="feb32156:DbDataSourceImpl" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="examsystem@localhost" type="feb32156:DbDataSourceImpl" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="examsystem: schema" type="c314c289:MysqlImplModel$Schema" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="examsystem@localhost" type="feb32156:DbDataSourceImpl" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="examsystem: schema" type="c314c289:MysqlImplModel$Schema" />
+        <item name="class: table" type="98d5ac3d:MysqlImplModel$Table" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="examsystem@localhost" type="feb32156:DbDataSourceImpl" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="examsystem: schema" type="c314c289:MysqlImplModel$Schema" />
+        <item name="grade: table" type="98d5ac3d:MysqlImplModel$Table" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="examsystem@localhost" type="feb32156:DbDataSourceImpl" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="examsystem: schema" type="c314c289:MysqlImplModel$Schema" />
+        <item name="major: table" type="98d5ac3d:MysqlImplModel$Table" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="examsystem@localhost" type="feb32156:DbDataSourceImpl" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="examsystem: schema" type="c314c289:MysqlImplModel$Schema" />
+        <item name="student: table" type="98d5ac3d:MysqlImplModel$Table" />
+      </path>
+    </expand>
+    <select />
+  </component>
+  <component name="FavoritesManager">
+    <favorites_list name="ExamSystem" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="405">
+      <file leaf-file-name="分享.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/web/src/main/webapp/static/script/分享.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="209">
+              <caret line="11" column="7" selection-start-line="11" selection-start-column="7" selection-end-line="11" selection-end-column="7" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="clazz_list.jsp" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/web/src/main/webapp/WEB-INF/view/admin/clazz_list.jsp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="3154">
+              <caret line="166" column="80" selection-start-line="166" selection-start-column="80" selection-end-line="166" selection-end-column="80" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="grade_list.jsp" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/web/src/main/webapp/WEB-INF/view/admin/grade_list.jsp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="950">
+              <caret line="50" column="87" selection-start-line="50" selection-start-column="86" selection-end-line="50" selection-end-column="87" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="password.jsp" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/web/src/main/webapp/WEB-INF/view/admin/password.jsp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="76">
+              <caret line="4" column="23" selection-start-line="4" selection-start-column="23" selection-end-line="4" selection-end-column="23" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="student_list.jsp" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/web/src/main/webapp/WEB-INF/view/admin/student_list.jsp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1577">
+              <caret line="83" column="51" selection-start-line="83" selection-start-column="51" selection-end-line="83" selection-end-column="51" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="student.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/web/src/main/webapp/static/script/admin/student.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="2337">
+              <caret line="123" column="5" selection-start-line="123" selection-start-column="5" selection-end-line="123" selection-end-column="5" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="teacher.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/web/src/main/webapp/static/script/admin/teacher.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="451">
+              <caret line="417" column="98" selection-start-line="417" selection-start-column="98" selection-end-line="417" selection-end-column="98" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ExaminationResultService.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/service/src/main/java/com/jf/exam/service/ExaminationResultService.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="152">
+              <caret line="17" column="17" selection-start-line="17" selection-start-column="17" selection-end-line="17" selection-end-column="17" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ClassServiceImpl.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/service/src/main/java/com/jf/exam/service/impl/ClassServiceImpl.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="95">
+              <caret line="119" column="50" selection-start-line="119" selection-start-column="50" selection-end-line="119" selection-end-column="50" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ExamServiceImpl.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/service/src/main/java/com/jf/exam/service/impl/ExamServiceImpl.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="432">
+              <caret line="184" column="28" lean-forward="true" selection-start-line="184" selection-start-column="28" selection-end-line="184" selection-end-column="28" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="mapper" />
+        <option value="spring-beans.schema" />
+        <option value="FxmlFile" />
+        <option value="JavaScript File" />
+        <option value="Class" />
+        <option value="Jsp File" />
+        <option value="HTML File" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>btn_add</find>
+      <find>#addModal</find>
+      <find>/teacher/exam/remove</find>
+      <find>/teacher/exam</find>
+      <find>delete-exam-btn</find>
+      <find>addExam</find>
+      <find>listClazzAssociationMap</find>
+      <find>closeClass</find>
+      <find>reset</find>
+      <find>/teacher/clazz</find>
+      <find>show-clazz-btn</find>
+      <find>clazz-save-btn</find>
+      <find>saveClass</find>
+      <find>btn_questions</find>
+      <find>addJudgeQuestion</find>
+      <find>addQuestion</find>
+      <find>ASC</find>
+      <find>ORDER BY</find>
+      <find>addExamQuestion</find>
+      <find>/repository</find>
+      <find>/student/exam/</find>
+      <find>/submit</find>
+      <find>examAnswerVO</find>
+      <find>addExaminationResulquestion</find>
+      <find>examinationResult_list</find>
+      <find>examinationResultquestionVO</find>
+      <find>doValidation</find>
+      <find>updateTime</find>
+      <find>sendCode</find>
+      <find>delete</find>
+    </findStrings>
+    <replaceStrings>
+      <replace />
+      <replace>examinationResulquestionVO</replace>
+    </replaceStrings>
+    <dirStrings>
+      <dir>D:\svn\ExamSystem\dao\src\main</dir>
+      <dir>D:\svn\ExamSystem\web\src\main</dir>
+    </dirStrings>
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/service/src/main/java/com/jf/exam/service/impl/ExaminationResultService.java" />
+        <option value="$PROJECT_DIR$/pojo/src/main/java/com/jf/exam/pojo/data/ExaminationResultDO.java" />
+        <option value="$PROJECT_DIR$/pojo/src/main/java/com/jf/exam/pojo/vo/BeginExamVO.java" />
+        <option value="$PROJECT_DIR$/dao/src/main/java/com/jf/exam/mapper/QuestionChoiceMapper.java" />
+        <option value="$PROJECT_DIR$/dao/src/main/java/com/jf/exam/mapper/QuestionJudgeMapper.java" />
+        <option value="$PROJECT_DIR$/dao/src/main/resources/mapper/QuestionChoiceMapper.xml" />
+        <option value="$PROJECT_DIR$/dao/src/main/resources/mapper/QuestionJudgeMapper.xml" />
+        <option value="$PROJECT_DIR$/pojo/src/main/java/com/jf/exam/pojo/vo/ExaminationResultVO.java" />
+        <option value="$PROJECT_DIR$/web/src/main/webapp/WEB-INF/view/student/exam_take.jsp" />
+        <option value="$PROJECT_DIR$/pojo/src/main/java/com/jf/exam/pojo/vo/ExamAnswerQuestions.java" />
+        <option value="$PROJECT_DIR$/service/src/main/java/com/jf/exam/service/ExamService.java" />
+        <option value="$PROJECT_DIR$/web/src/main/webapp/WEB-INF/view/student/examinationResult_list.jsp" />
+        <option value="$PROJECT_DIR$/web/src/main/java/com/jf/exam/controller/student/StudentIndexController.java" />
+        <option value="$PROJECT_DIR$/pojo/src/main/java/com/jf/exam/pojo/vo/ExamResultVO.java" />
+        <option value="$PROJECT_DIR$/pojo/src/main/java/com/jf/exam/pojo/vo/ExamResultViewVO.java" />
+        <option value="$PROJECT_DIR$/web/src/main/java/com/jf/exam/controller/student/StudentResultController.java" />
+        <option value="$PROJECT_DIR$/web/src/main/java/com/jf/exam/controller/student/ExamResultController.java" />
+        <option value="$PROJECT_DIR$/web/src/main/java/com/jf/exam/controller/student/StudentExamController.java" />
+        <option value="$PROJECT_DIR$/service/src/main/java/com/jf/exam/service/impl/ExaminationResulquestionVO.java" />
+        <option value="$PROJECT_DIR$/pojo/src/main/java/com/jf/exam/pojo/vo/ExaminationResultquestionVO.java" />
+        <option value="$PROJECT_DIR$/pojo/src/main/java/com/jf/exam/pojo/vo/ExaminationResulquestionVO.java" />
+        <option value="$PROJECT_DIR$/web/src/main/resources/spring/spring-mybatis.xml" />
+        <option value="$PROJECT_DIR$/service/src/main/java/com/jf/exam/service/impl/ExamServiceImpl.java" />
+        <option value="$PROJECT_DIR$/web/src/main/resources/spring/spring-shiro.xml" />
+        <option value="$PROJECT_DIR$/web/src/main/webapp/static/script/student/exam_take.js" />
+        <option value="$PROJECT_DIR$/web/src/main/webapp/WEB-INF/view/teacher/statistics.jsp" />
+        <option value="$PROJECT_DIR$/pojo/src/main/java/com/jf/exam/pojo/vo/StudentExamResultVO.java" />
+        <option value="$PROJECT_DIR$/service/src/main/java/com/jf/exam/service/ExaminationResultService.java" />
+        <option value="$PROJECT_DIR$/dao/src/main/java/com/jf/exam/mapper/ExaminationResulquestionMapper.java" />
+        <option value="$PROJECT_DIR$/dao/src/main/resources/mapper/ExaminationResulquestionMapper.xml" />
+        <option value="$PROJECT_DIR$/web/src/main/java/com/jf/exam/controller/teacher/TeacherExamController.java" />
+        <option value="$PROJECT_DIR$/service/src/main/java/com/jf/exam/service/impl/ExaminationResultServiceImpl.java" />
+        <option value="$PROJECT_DIR$/dao/src/main/java/com/jf/exam/mapper/ExaminationResultMapper.java" />
+        <option value="$PROJECT_DIR$/dao/src/main/resources/mapper/ExaminationResultMapper.xml" />
+        <option value="$PROJECT_DIR$/utils/src/main/java/com/jf/exam/utils/SendCodeUtils.java" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/web/src/main/java/com/jf/exam/controller/SendCode.java" />
+        <option value="$PROJECT_DIR$/utils/src/main/java/com/jf/exam/utils/SmsUtils.java" />
+        <option value="$PROJECT_DIR$/web/src/main/webapp/WEB-INF/view/sms.html" />
+        <option value="$PROJECT_DIR$/utils/src/main/java/com/jf/exam/utils/randomUtil.java" />
+        <option value="$PROJECT_DIR$/utils/src/main/java/com/jf/exam/utils/WYYTest.java" />
+        <option value="$PROJECT_DIR$/web/src/main/webapp/WEB-INF/Login.jsp" />
+        <option value="$PROJECT_DIR$/web/src/main/webapp/WEB-INF/view/hh.jsp" />
+        <option value="$PROJECT_DIR$/web/src/main/webapp/static/script/smscode.js" />
+        <option value="$PROJECT_DIR$/web/src/main/webapp/WEB-INF/view/ss.jsp" />
+        <option value="$PROJECT_DIR$/web/src/main/webapp/WEB-INF/view/teacher/Smm.jsp" />
+        <option value="$PROJECT_DIR$/web/src/main/webapp/WEB-INF/view/Smm.jsp" />
+        <option value="$PROJECT_DIR$/web/src/main/java/com/jf/exam/controller/LoginController.java" />
+        <option value="$PROJECT_DIR$/web/src/main/java/com/jf/exam/controller/test.java" />
+        <option value="$PROJECT_DIR$/web/src/main/webapp/static/分享.jsp" />
+        <option value="$PROJECT_DIR$/web/src/main/webapp/static/script/分享.html" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="LogFilters">
+    <option name="FILTER_ERRORS" value="false" />
+    <option name="FILTER_WARNINGS" value="false" />
+    <option name="FILTER_INFO" value="true" />
+    <option name="FILTER_DEBUG" value="true" />
+    <option name="CUSTOM_FILTER" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="mavenHome" value="D:/tools/apache-maven-3.5.4" />
+        <option name="userSettingsFile" value="D:\tools\apache-maven-3.5.4\conf\settings.xml" />
+      </MavenGeneralSettings>
+    </option>
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="MavenProjectNavigator">
+    <treeState>
+      <expand />
+      <select />
+    </treeState>
+  </component>
+  <component name="NodePackageJsonFileManager">
+    <packageJsonPaths />
+  </component>
+  <component name="ProjectFrameBounds" extendedState="7">
+    <option name="x" value="360" />
+    <option name="y" value="62" />
+    <option name="width" value="1420" />
+    <option name="height" value="1039" />
+  </component>
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <flattenPackages ProjectPane="false" />
+      <showMembers ProjectPane="false" />
+      <hideEmptyPackages ProjectPane="true" />
+      <autoscrollFromSource ProjectPane="true" />
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="PackagesPane" />
+      <pane id="AndroidView" />
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="ExamSystem" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ExamSystem" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ExamSystem" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ExamSystem" type="462c0819:PsiDirectoryNode" />
+              <item name="service" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ExamSystem" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ExamSystem" type="462c0819:PsiDirectoryNode" />
+              <item name="service" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ExamSystem" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ExamSystem" type="462c0819:PsiDirectoryNode" />
+              <item name="service" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ExamSystem" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ExamSystem" type="462c0819:PsiDirectoryNode" />
+              <item name="service" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ExamSystem" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ExamSystem" type="462c0819:PsiDirectoryNode" />
+              <item name="service" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="service" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ExamSystem" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ExamSystem" type="462c0819:PsiDirectoryNode" />
+              <item name="service" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="service" type="462c0819:PsiDirectoryNode" />
+              <item name="impl" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ExamSystem" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ExamSystem" type="462c0819:PsiDirectoryNode" />
+              <item name="web" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ExamSystem" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ExamSystem" type="462c0819:PsiDirectoryNode" />
+              <item name="web" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ExamSystem" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ExamSystem" type="462c0819:PsiDirectoryNode" />
+              <item name="web" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ExamSystem" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ExamSystem" type="462c0819:PsiDirectoryNode" />
+              <item name="web" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="webapp" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ExamSystem" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ExamSystem" type="462c0819:PsiDirectoryNode" />
+              <item name="web" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="webapp" type="462c0819:PsiDirectoryNode" />
+              <item name="static" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ExamSystem" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ExamSystem" type="462c0819:PsiDirectoryNode" />
+              <item name="web" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="webapp" type="462c0819:PsiDirectoryNode" />
+              <item name="static" type="462c0819:PsiDirectoryNode" />
+              <item name="script" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ExamSystem" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ExamSystem" type="462c0819:PsiDirectoryNode" />
+              <item name="web" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="webapp" type="462c0819:PsiDirectoryNode" />
+              <item name="static" type="462c0819:PsiDirectoryNode" />
+              <item name="script" type="462c0819:PsiDirectoryNode" />
+              <item name="student" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ExamSystem" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ExamSystem" type="462c0819:PsiDirectoryNode" />
+              <item name="web" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="webapp" type="462c0819:PsiDirectoryNode" />
+              <item name="static" type="462c0819:PsiDirectoryNode" />
+              <item name="script" type="462c0819:PsiDirectoryNode" />
+              <item name="teacher" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ExamSystem" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ExamSystem" type="462c0819:PsiDirectoryNode" />
+              <item name="web" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="webapp" type="462c0819:PsiDirectoryNode" />
+              <item name="WEB-INF" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ExamSystem" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ExamSystem" type="462c0819:PsiDirectoryNode" />
+              <item name="web" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="webapp" type="462c0819:PsiDirectoryNode" />
+              <item name="WEB-INF" type="462c0819:PsiDirectoryNode" />
+              <item name="view" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ExamSystem" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ExamSystem" type="462c0819:PsiDirectoryNode" />
+              <item name="web" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="webapp" type="462c0819:PsiDirectoryNode" />
+              <item name="WEB-INF" type="462c0819:PsiDirectoryNode" />
+              <item name="view" type="462c0819:PsiDirectoryNode" />
+              <item name="admin" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="SearchEverywhereHistoryKey" value="submit&#9;null&#9;null&#10;Login&#9;FILE&#9;file://D:/svn/ExamSystem/web/src/main/java/com/jf/exam/controller/LoginController.java" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="com.intellij.database.dataSource.DataSourceTemplate" value="MySQL" />
+    <property name="last_opened_file_path" value="$USER_HOME$/Desktop/share.js-master" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.22911054" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="vcs.Subversion" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\svn\ExamSystem\web\src\main\webapp\WEB-INF\view" />
+      <recent name="D:\svn\ExamSystem\dao\src\main\resources\mapper" />
+      <recent name="D:\svn\ExamSystem\dao\src\main\java\com\jf\exam" />
+      <recent name="D:\svn\ExamSystem\pojo\src\main\java\com\jf\exam\pojo" />
+      <recent name="D:\svn\ExamSystem\web\src\main" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\svn\ExamSystem\utils\src\main\java\com\jf\exam\utils" />
+      <recent name="D:\svn\ExamSystem\web\src\main\webapp\static\script\teacher" />
+      <recent name="D:\svn\ExamSystem\dao\src\main\resources\mapper" />
+      <recent name="D:\svn\ExamSystem\web\src\main\webapp\WEB-INF\view\student" />
+      <recent name="D:\svn\ExamSystem\pojo\src\main\java\com\jf\exam\pojo\data" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.jf.exam.pojo.vo" />
+      <recent name="com.jf.exam.pojo" />
+      <recent name="com.jf.exam.service.impl" />
+      <recent name="com.jf.exam.pojo.data" />
+      <recent name="com.jf.exam.mapper" />
+    </key>
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="com.jf.exam.service.impl" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Tomcat Server.Unnamed">
+    <configuration name="SendCode" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.jf.exam.controller.SendCode" />
+      <module name="web" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.jf.exam.controller.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+    </configuration>
+    <configuration name="SendCodeUtils" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.jf.exam.utils.SendCodeUtils" />
+      <module name="utils" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.jf.exam.utils.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+    </configuration>
+    <configuration name="SmsUtils" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.jf.exam.utils.SmsUtils" />
+      <module name="utils" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.jf.exam.utils.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+    </configuration>
+    <configuration default="true" type="Application" factoryName="Application">
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+    </configuration>
+    <configuration default="true" type="JUnit" factoryName="JUnit">
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <patterns />
+    </configuration>
+    <configuration name="test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="web" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.jf.exam.controller.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="com.jf.exam.controller" />
+      <option name="MAIN_CLASS_NAME" value="com.jf.exam.controller.test" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <patterns />
+    </configuration>
+    <configuration name="test.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="web" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.jf.exam.controller.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="com.jf.exam.controller" />
+      <option name="MAIN_CLASS_NAME" value="com.jf.exam.controller.test" />
+      <option name="METHOD_NAME" value="test" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <patterns />
+    </configuration>
+    <configuration default="true" type="TestNG" factoryName="TestNG">
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="SUITE_NAME" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="GROUP_NAME" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="OUTPUT_DIRECTORY" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <option name="USE_DEFAULT_REPORTERS" value="false" />
+      <option name="PROPERTIES_FILE" />
+      <properties />
+      <listeners />
+    </configuration>
+    <configuration name="Unnamed" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 9.0.8" ALTERNATIVE_JRE_ENABLED="false">
+      <option name="UPDATE_ON_FRAME_DEACTIVATION" value="true" />
+      <option name="UPDATE_CLASSES_ON_FRAME_DEACTIVATION" value="true" />
+      <deployment>
+        <artifact name="web:war exploded">
+          <settings>
+            <option name="CONTEXT_PATH" value="/" />
+          </settings>
+        </artifact>
+      </deployment>
+      <server-settings>
+        <option name="BASE_DIRECTORY_NAME" value="Unnamed_ExamSystem_10" />
+      </server-settings>
+      <predefined_log_file id="Tomcat" enabled="true" />
+      <predefined_log_file id="Tomcat Catalina" enabled="true" />
+      <predefined_log_file id="Tomcat Manager" enabled="false" />
+      <predefined_log_file id="Tomcat Host Manager" enabled="false" />
+      <predefined_log_file id="Tomcat Localhost Access" enabled="false" />
+      <RunnerSettings RunnerId="Debug">
+        <option name="DEBUG_PORT" value="7521" />
+      </RunnerSettings>
+      <RunnerSettings RunnerId="JRebel Debug">
+        <option name="DEBUG_PORT" value="7522" />
+      </RunnerSettings>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Cover">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Debug">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="JRebel Debug">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="JRebel Executor">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Run">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <method>
+        <option name="BuildArtifacts" enabled="true">
+          <artifact name="web:war exploded" />
+        </option>
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Tomcat Server.Unnamed" />
+      <item itemvalue="Application.SendCode" />
+      <item itemvalue="Application.SendCodeUtils" />
+      <item itemvalue="Application.SmsUtils" />
+      <item itemvalue="JUnit.test.test" />
+      <item itemvalue="JUnit.test" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.test" />
+        <item itemvalue="JUnit.test.test" />
+        <item itemvalue="Application.SmsUtils" />
+        <item itemvalue="Application.SendCode" />
+        <item itemvalue="Application.SendCodeUtils" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration" cleanupOnStartRun="true">
+    <configuration>C:\Users\10051\AppData\Roaming\Subversion</configuration>
+    <supportedVersion>125</supportedVersion>
+  </component>
+  <component name="SvnFileUrlMappingImpl">
+    <option name="myMappingRoots">
+      <list>
+        <SvnCopyRootSimple>
+          <option name="myVcsRoot" value="D:\svn\ExamSystem" />
+          <option name="myCopyRoot" value="D:\svn\ExamSystem" />
+        </SvnCopyRootSimple>
+        <SvnCopyRootSimple>
+          <option name="myVcsRoot" value="D:\svn\ExamSystem\.idea" />
+          <option name="myCopyRoot" value="D:\svn\ExamSystem\.idea" />
+        </SvnCopyRootSimple>
+        <SvnCopyRootSimple>
+          <option name="myVcsRoot" value="D:\svn\ExamSystem\dao" />
+          <option name="myCopyRoot" value="D:\svn\ExamSystem\dao" />
+        </SvnCopyRootSimple>
+        <SvnCopyRootSimple>
+          <option name="myVcsRoot" value="D:\svn\ExamSystem\pojo" />
+          <option name="myCopyRoot" value="D:\svn\ExamSystem\pojo" />
+        </SvnCopyRootSimple>
+        <SvnCopyRootSimple>
+          <option name="myVcsRoot" value="D:\svn\ExamSystem\service" />
+          <option name="myCopyRoot" value="D:\svn\ExamSystem\service" />
+        </SvnCopyRootSimple>
+        <SvnCopyRootSimple>
+          <option name="myVcsRoot" value="D:\svn\ExamSystem\utils" />
+          <option name="myCopyRoot" value="D:\svn\ExamSystem\utils" />
+        </SvnCopyRootSimple>
+        <SvnCopyRootSimple>
+          <option name="myVcsRoot" value="D:\svn\ExamSystem\web" />
+          <option name="myCopyRoot" value="D:\svn\ExamSystem\web" />
+        </SvnCopyRootSimple>
+      </list>
+    </option>
+    <option name="myMoreRealMappingRoots">
+      <list>
+        <SvnCopyRootSimple>
+          <option name="myVcsRoot" value="D:\svn\ExamSystem" />
+          <option name="myCopyRoot" value="D:\svn\ExamSystem" />
+        </SvnCopyRootSimple>
+      </list>
+    </option>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="82074870-1dce-4dea-8d96-2ba5dc283d2d" name="Default" comment="" />
+      <created>1531704843103</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1531704843103</updated>
+      <workItem from="1531704846712" duration="5176000" />
+      <workItem from="1531728319116" duration="19559000" />
+      <workItem from="1531749330553" duration="7148000" />
+      <workItem from="1531789523548" duration="25651000" />
+      <workItem from="1531877341122" duration="18144000" />
+      <workItem from="1531978328215" duration="1583000" />
+      <workItem from="1531990177859" duration="28389000" />
+      <workItem from="1532048482129" duration="8280000" />
+      <workItem from="1532057354520" duration="1331000" />
+      <workItem from="1532060721747" duration="14986000" />
+      <workItem from="1532077199004" duration="356000" />
+      <workItem from="1532077759152" duration="22358000" />
+      <workItem from="1532135137546" duration="2413000" />
+      <workItem from="1532161098724" duration="1897000" />
+      <workItem from="1532163083083" duration="5990000" />
+      <workItem from="1532174650613" duration="14673000" />
+      <workItem from="1532326246918" duration="22168000" />
+      <workItem from="1532394409977" duration="1657000" />
+      <workItem from="1532418847170" duration="15548000" />
+      <workItem from="1532480788428" duration="8035000" />
+      <workItem from="1532498060932" duration="18605000" />
+      <workItem from="1532575351729" duration="778000" />
+      <workItem from="1532585668112" duration="9079000" />
+      <workItem from="1532596412551" duration="605000" />
+      <workItem from="1532597191114" duration="17386000" />
+      <workItem from="1532619074745" duration="260000" />
+      <workItem from="1532653435996" duration="149000" />
+      <workItem from="1532653719347" duration="17781000" />
+      <workItem from="1532740439801" duration="942000" />
+      <workItem from="1532741476560" duration="18223000" />
+      <workItem from="1532849828238" duration="6688000" />
+      <workItem from="1532871636556" duration="3196000" />
+      <workItem from="1532913451403" duration="22935000" />
+      <workItem from="1532952961518" duration="9440000" />
+      <workItem from="1532998908963" duration="7217000" />
+      <workItem from="1533007331397" duration="1037000" />
+      <workItem from="1533034557455" duration="2590000" />
+      <workItem from="1533037727683" duration="2628000" />
+      <workItem from="1533278264826" duration="4939000" />
+      <workItem from="1533310744895" duration="88000" />
+      <workItem from="1533317589657" duration="637000" />
+      <workItem from="1533523567014" duration="635000" />
+      <workItem from="1533623789438" duration="10100000" />
+      <workItem from="1533645235860" duration="662000" />
+      <workItem from="1533694445283" duration="14965000" />
+      <workItem from="1533726026753" duration="2931000" />
+      <workItem from="1534323639077" duration="703000" />
+      <workItem from="1534325518170" duration="2276000" />
+      <workItem from="1534384624124" duration="1119000" />
+      <workItem from="1534507533688" duration="37000" />
+      <workItem from="1536587071031" duration="1293000" />
+      <workItem from="1536592384203" duration="446000" />
+      <workItem from="1536648743794" duration="1762000" />
+      <workItem from="1536716464474" duration="3701000" />
+      <workItem from="1536744327412" duration="28000" />
+      <workItem from="1536747677070" duration="2349000" />
+      <workItem from="1536799927898" duration="5477000" />
+      <workItem from="1536901637118" duration="1935000" />
+      <workItem from="1537150809291" duration="3000" />
+      <workItem from="1537150877204" duration="28000" />
+      <workItem from="1537175643453" duration="1624000" />
+      <workItem from="1537185439943" duration="64000" />
+      <workItem from="1537186147239" duration="1192000" />
+      <workItem from="1537231917597" duration="281000" />
+      <workItem from="1537236724713" duration="627000" />
+      <workItem from="1537328123902" duration="1299000" />
+      <workItem from="1537405144434" duration="1188000" />
+      <workItem from="1537872075655" duration="1915000" />
+      <workItem from="1538016183566" duration="650000" />
+    </task>
+    <task id="LOCAL-00001" summary="-">
+      <created>1532163219334</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1532163219334</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
+    <servers />
+  </component>
+  <component name="TestHistory">
+    <history-entry file="test_test - 2018.09.12 at 09h 52m 41s.xml">
+      <configuration name="test.test" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="test_test - 2018.09.12 at 10h 01m 17s.xml">
+      <configuration name="test.test" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="test - 2018.09.12 at 16h 46m 59s.xml">
+      <configuration name="test" configurationId="JUnit" />
+    </history-entry>
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="429835000" />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
+    <editor active="true" />
+    <layout>
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="bottom" id="Event Log" order="17" sideWeight="0.50268096" side_tool="true" weight="0.54532164" />
+      <window_info anchor="bottom" id="Application Servers" order="8" weight="0.32894737" />
+      <window_info anchor="bottom" id="JRebel Console" order="16" side_tool="true" weight="0.32894737" />
+      <window_info anchor="right" id="Maven Projects" order="8" weight="0.097855225" />
+      <window_info anchor="bottom" id="Database Changes" order="12" show_stripe_button="false" />
+      <window_info anchor="bottom" id="JRebel Executor" order="15" />
+      <window_info id="Capture Tool" order="6" />
+      <window_info id="Designer" order="2" />
+      <window_info anchor="right" id="Database" order="5" weight="0.32931727" />
+      <window_info id="Structure" order="1" sideWeight="0.50259066" side_tool="true" weight="0.31769437" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.09517426" />
+      <window_info id="UI Designer" order="5" />
+      <window_info anchor="bottom" id="Debug" order="5" sideWeight="0.49731904" weight="0.61403507" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.32894737" />
+      <window_info anchor="right" id="Palette&#9;" order="6" />
+      <window_info id="Image Layers" order="4" />
+      <window_info anchor="bottom" id="Java Enterprise" order="13" />
+      <window_info anchor="right" id="Capture Analysis" order="4" />
+      <window_info anchor="bottom" id="Version Control" order="14" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.3640351" />
+      <window_info anchor="bottom" id="Spring" order="9" />
+      <window_info anchor="bottom" id="Terminal" order="10" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.4974093" visible="true" weight="0.17962466" />
+      <window_info anchor="bottom" id="Web" order="7" side_tool="true" weight="0.32894737" />
+      <window_info id="JRebel" order="3" sideWeight="0.49887133" side_tool="true" weight="0.2613941" />
+      <window_info anchor="right" id="Theme Preview" order="7" />
+      <window_info id="Favorites" order="7" sideWeight="0.49887133" side_tool="true" weight="0.35254693" />
+      <window_info anchor="bottom" id="Inspection" order="4" weight="0.4" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="3" weight="0.25" />
+      <window_info anchor="bottom" id="Messages" order="11" weight="0.27631578" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="bottom" id="Find" order="1" />
+    </layout>
+    <layout-to-restore>
+      <window_info anchor="bottom" id="Application Servers" order="8" weight="0.32894737" />
+      <window_info id="Designer" order="2" />
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info id="JRebel" order="3" sideWeight="0.49887133" side_tool="true" weight="0.2613941" />
+      <window_info anchor="bottom" id="Spring" order="9" />
+      <window_info id="Image Layers" order="4" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.32748538" />
+      <window_info anchor="bottom" id="Cvs" order="3" weight="0.25" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.09517426" />
+      <window_info id="UI Designer" order="5" />
+      <window_info id="Favorites" order="7" sideWeight="0.49887133" side_tool="true" weight="0.35254693" />
+      <window_info anchor="bottom" id="Terminal" order="10" />
+      <window_info id="Capture Tool" order="6" />
+      <window_info anchor="right" id="Capture Analysis" order="4" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="bottom" id="Event Log" order="17" sideWeight="0.5020107" side_tool="true" weight="0.4271137" />
+      <window_info active="true" anchor="bottom" id="Messages" order="11" visible="true" weight="0.27728614" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.32894737" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="bottom" id="Java Enterprise" order="13" />
+      <window_info anchor="bottom" id="Database Changes" order="12" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="14" />
+      <window_info anchor="right" id="Maven Projects" order="8" weight="0.097855225" />
+      <window_info anchor="bottom" id="JRebel Executor" order="15" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.5011287" visible="true" weight="0.34069613" />
+      <window_info anchor="bottom" id="JRebel Console" order="16" side_tool="true" weight="0.32894737" />
+      <window_info anchor="right" id="Database" order="5" weight="0.32931727" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Web" order="7" side_tool="true" weight="0.32894737" />
+      <window_info anchor="right" id="Palette&#9;" order="6" />
+      <window_info anchor="right" id="Theme Preview" order="7" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="4" weight="0.4" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Debug" order="5" sideWeight="0.49798927" weight="0.70058995" />
+    </layout-to-restore>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="-" />
+    <option name="LAST_COMMIT_MESSAGE" value="-" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/service/src/main/java/com/jf/exam/service/impl/ClassServiceImpl.java</url>
+          <line>73</line>
+          <properties />
+          <option name="timeStamp" value="123" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/service/src/main/java/com/jf/exam/service/impl/QuestionServiceImpl.java</url>
+          <line>187</line>
+          <properties />
+          <option name="timeStamp" value="222" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/service/src/main/java/com/jf/exam/service/impl/ExaminationResultServiceImpl.java</url>
+          <line>101</line>
+          <properties />
+          <option name="timeStamp" value="269" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/web/src/main/java/com/jf/exam/controller/teacher/TeacherExamController.java</url>
+          <line>235</line>
+          <properties />
+          <option name="timeStamp" value="276" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/web/src/main/java/com/jf/exam/controller/LoginController.java</url>
+          <line>91</line>
+          <properties />
+          <option name="timeStamp" value="289" />
+        </line-breakpoint>
+      </breakpoints>
+      <breakpoints-dialog>
+        <breakpoints-dialog />
+      </breakpoints-dialog>
+      <option name="time" value="290" />
+    </breakpoint-manager>
+  </component>
+  <component name="antWorkspaceConfiguration">
+    <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
+    <option name="FILTER_TARGETS" value="false" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/web/src/main/webapp/WEB-INF/view/success.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="950">
+          <caret line="50" column="42" selection-start-line="50" selection-start-column="42" selection-end-line="50" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/src/main/webapp/WEB-INF/view/student/exam_list.jsp">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/src/main/webapp/WEB-INF/view/student/exam_take.jsp">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/src/main/webapp/static/script/smscode.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1615">
+          <caret line="85" column="3" selection-start-line="85" selection-start-column="3" selection-end-line="85" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/src/main/webapp/static/script/json2.min.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/src/main/webapp/static/script/login.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="779">
+          <caret line="41" column="26" selection-start-line="41" selection-start-column="20" selection-end-line="41" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/src/main/webapp/static/script/admin/major.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="114">
+          <caret line="18" column="27" lean-forward="true" selection-start-line="18" selection-start-column="27" selection-end-line="18" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/src/main/webapp/WEB-INF/view/ss.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="380">
+          <caret line="20" column="34" selection-start-line="20" selection-start-column="34" selection-end-line="20" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/src/main/webapp/WEB-INF/view/Smm.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1159">
+          <caret line="61" column="25" selection-start-line="61" selection-start-column="25" selection-end-line="61" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/src/main/java/com/jf/exam/controller/student/ExamResultController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="646">
+          <caret line="48" column="67" selection-start-line="48" selection-start-column="67" selection-end-line="48" selection-end-column="67" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/src/main/java/com/jf/exam/controller/student/StudentExamController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="608">
+          <caret line="54" column="58" selection-start-line="54" selection-start-column="58" selection-end-line="54" selection-end-column="58" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/src/main/java/com/jf/exam/controller/student/StudentIndexController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="228">
+          <caret line="13" column="31" selection-start-line="13" selection-start-column="31" selection-end-line="13" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/src/main/java/com/jf/exam/controller/teacher/TeacherClazzController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="133">
+          <caret line="16" column="13" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/src/main/java/com/jf/exam/controller/teacher/TeacherExamController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3135">
+          <caret line="212" column="19" selection-start-line="212" selection-start-column="8" selection-end-line="212" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/src/main/java/com/jf/exam/controller/teacher/TeacherQuestionController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1235">
+          <caret line="83" column="71" selection-start-line="83" selection-start-column="71" selection-end-line="83" selection-end-column="71" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/src/main/webapp/index.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="57">
+          <caret line="3" column="28" selection-start-line="3" selection-start-column="28" selection-end-line="3" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/src/main/java/com/jf/exam/controller/LoginController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="361">
+          <caret line="48" column="35" selection-start-line="48" selection-start-column="28" selection-end-line="48" selection-end-column="35" />
+          <folding>
+            <element signature="e#1297#1298#0" expanded="true" />
+            <element signature="e#1327#1328#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/src/main/java/com/jf/exam/controller/manage/ManagerClassController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="456">
+          <caret line="43" column="72" selection-start-line="43" selection-start-column="72" selection-end-line="43" selection-end-column="72" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pojo/src/main/java/com/jf/exam/mapper/StudentMapper.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pojo/src/main/java/com/jf/exam/mapper/TeacherMapper.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-285" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/src/main/java/com/jf/exam/controller/manage/ManagerMajorController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="209">
+          <caret line="32" column="55" selection-start-line="32" selection-start-column="55" selection-end-line="32" selection-end-column="55" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/src/main/java/com/jf/exam/controller/manage/ManagerTeacherController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="399">
+          <caret line="31" column="36" lean-forward="true" selection-start-line="31" selection-start-column="36" selection-end-line="31" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/src/main/java/com/jf/exam/controller/manage/ManagerStudentController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="437">
+          <caret line="48" column="34" selection-start-line="48" selection-start-column="34" selection-end-line="48" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/service/src/main/java/com/jf/exam/service/StudentService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="475">
+          <caret line="29" column="14" lean-forward="true" selection-start-line="29" selection-start-column="14" selection-end-line="29" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/service/src/main/java/com/jf/exam/service/impl/StudentServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2242">
+          <caret line="141" column="42" lean-forward="true" selection-start-line="141" selection-start-column="42" selection-end-line="141" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/service/src/main/java/com/jf/exam/service/impl/QuestionTypeServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="171">
+          <caret line="17" column="13" selection-start-line="17" selection-start-column="13" selection-end-line="17" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/service/src/main/java/com/jf/exam/service/impl/QuestionJudgeServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="171">
+          <caret line="17" column="13" selection-start-line="17" selection-start-column="13" selection-end-line="17" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/service/src/main/java/com/jf/exam/service/impl/QuestionChoiceServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="171">
+          <caret line="17" column="13" selection-start-line="17" selection-start-column="13" selection-end-line="17" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/service/src/main/java/com/jf/exam/service/impl/ManagerServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="190">
+          <caret line="20" column="13" selection-start-line="20" selection-start-column="13" selection-end-line="20" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/service/src/main/java/com/jf/exam/service/impl/MajorServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1406">
+          <caret line="91" column="52" selection-start-line="91" selection-start-column="52" selection-end-line="91" selection-end-column="52" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pojo/src/main/java/com/jf/exam/pojo/Grade.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="38">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pojo/src/main/java/com/jf/exam/pojo/BaseUser.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="38">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/src/main/java/com/jf/exam/controller/AdminController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="114">
+          <caret line="16" column="13" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/service/src/main/java/com/jf/exam/service/impl/ExaminationResultServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="171">
+          <caret line="29" column="13" selection-start-line="29" selection-start-column="13" selection-end-line="29" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/service/src/main/java/com/jf/exam/service/impl/ExamQuestionServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="171">
+          <caret line="19" column="13" selection-start-line="19" selection-start-column="13" selection-end-line="19" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/service/src/main/java/com/jf/exam/service/impl/GradeServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="190">
+          <caret line="26" column="13" selection-start-line="26" selection-start-column="13" selection-end-line="26" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/src/main/java/com/jf/exam/controller/test.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="171">
+          <caret line="16" column="37" selection-start-line="16" selection-start-column="37" selection-end-line="16" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/src/main/webapp/image.jsp">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/src/main/webapp/WEB-INF/view/admin/index.jsp">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/src/main/webapp/WEB-INF/view/admin/major_list.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="570">
+          <caret line="30" column="31" selection-start-line="30" selection-start-column="31" selection-end-line="30" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/src/main/webapp/static/分享.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="247">
+          <caret line="13" column="15" selection-start-line="13" selection-start-column="15" selection-end-line="13" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/src/main/webapp/static/script/分享.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="209">
+          <caret line="11" column="7" selection-start-line="11" selection-start-column="7" selection-end-line="11" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/src/main/webapp/WEB-INF/view/admin/clazz_list.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3154">
+          <caret line="166" column="80" selection-start-line="166" selection-start-column="80" selection-end-line="166" selection-end-column="80" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/src/main/webapp/WEB-INF/view/admin/grade_list.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="950">
+          <caret line="50" column="87" selection-start-line="50" selection-start-column="86" selection-end-line="50" selection-end-column="87" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/src/main/webapp/WEB-INF/view/admin/password.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="76">
+          <caret line="4" column="23" selection-start-line="4" selection-start-column="23" selection-end-line="4" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/src/main/webapp/WEB-INF/view/admin/student_list.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1577">
+          <caret line="83" column="51" selection-start-line="83" selection-start-column="51" selection-end-line="83" selection-end-column="51" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/src/main/webapp/static/script/admin/student.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2337">
+          <caret line="123" column="5" selection-start-line="123" selection-start-column="5" selection-end-line="123" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/src/main/webapp/static/script/admin/teacher.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="451">
+          <caret line="417" column="98" selection-start-line="417" selection-start-column="98" selection-end-line="417" selection-end-column="98" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/service/src/main/java/com/jf/exam/service/ExaminationResultService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="152">
+          <caret line="17" column="17" selection-start-line="17" selection-start-column="17" selection-end-line="17" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/service/src/main/java/com/jf/exam/service/impl/ClassServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="95">
+          <caret line="119" column="50" selection-start-line="119" selection-start-column="50" selection-end-line="119" selection-end-column="50" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/service/src/main/java/com/jf/exam/service/impl/ExamServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="432">
+          <caret line="184" column="28" lean-forward="true" selection-start-line="184" selection-start-column="28" selection-end-line="184" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <last-edited>web:war exploded</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+                <option value="0.5" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <last-edited>Web (web)|Web</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>pojo</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+                <option value="0.6" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectJDKs.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <last-edited>Maven: com.fasterxml.jackson.core:jackson-annotations:2.8.0</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+  <component name="mavenExecuteGoalHistory">
+    <option value="$PROJECT_DIR$" />
+    <option value="clean" />
+  </component>
+</project>

@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<mapper namespace="com.jf.exam.mapper.TeacherMapper">
+
+	<resultMap id="teacherMapper" type="TeacherDO">
+        <result property="id" column="id"/>
+        <result property="name" column="name"/>
+        <result property="password" column="password"/>
+        <result property="modified" column="modified"/>
+        <result property="modifyPwdTime" column="modify_pwd_time"/>
+        <result property="delFlag" column="del_flag"/>
+	</resultMap>
+
+    <sql id="_table">
+        teacher
+	</sql>
+
+	<sql id="_fields">
+		id,`name`,`password`,modified,modify_pwd_time,del_flag
+	</sql>
+
+	<sql id="_condition">
+		<trim prefix="WHERE" prefixOverrides="AND|OR">
+            <if test="id!=null and ''!=id">
+				AND id = #{id}
+			</if>
+            <if test="name!=null and ''!=name">
+				AND `name` = #{name}
+			</if>
+            <if test="password!=null and ''!=password">
+				AND `password` = #{password}
+			</if>
+            <if test="modified!=null">
+				AND modified = #{modified}
+			</if>
+            <if test="modifyPwdTime!=null and ''!=modifyPwdTime">
+				<![CDATA[AND modify_pwd_time >= #{dynamicFields_startTime}]]>
+			</if>
+            <if test="modifyPwdTime!=null and ''!=modifyPwdTime">
+				<![CDATA[AND modify_pwd_time < #{dynamicFields_endTime}]]>
+			</if>
+            <!--<if test="delFlag!=null">-->
+				<!--AND del_flag = #{delFlag}-->
+			<!--</if>-->
+				AND del_flag = 0
+		</trim>
+	</sql>
+
+	<sql id="_primaryKey_condition">
+		WHERE id = #{id}
+	</sql>
+
+	<sql id="_order">
+        <if test="sortByParams!= null and sortByParams.size()>0" >
+            ORDER BY
+            <foreach collection="sortByParams.keys" index="index" item="sortByParamKey" separator=",">
+                <![CDATA[${sortByParamKey} ${sortByParams[sortByParamKey]}]]>
+            </foreach>
+        </if>
+	</sql>
+
+    <insert id="addTeacher" parameterType="TeacherVO" keyProperty="id">
+        INSERT INTO <include refid="_table"/>
+        <trim prefix="(" suffix=")" suffixOverrides=",">
+            <if test="id!=null and ''!=id">
+				id,
+			</if>
+            <if test="name!=null and ''!=name">
+				`name`,
+			</if>
+            <if test="password!=null and ''!=password">
+				`password`,
+			</if>
+            <if test="modified!=null">
+				modified,
+			</if>
+            <if test="modifyPwdTime!=null and ''!=modifyPwdTime">
+				modify_pwd_time,
+			</if>
+            <if test="delFlag!=null">
+				del_flag,
+			</if>
+        </trim>
+        <trim prefix="values (" suffix=")" suffixOverrides=",">
+            <if test="id!=null and ''!=id">
+				#{id},
+			</if>
+            <if test="name!=null and ''!=name">
+				#{name},
+			</if>
+            <if test="password!=null and ''!=password">
+				#{password},
+			</if>
+            <if test="modified!=null">
+				#{modified},
+			</if>
+            <if test="modifyPwdTime!=null and ''!=modifyPwdTime">
+				#{modifyPwdTime},
+			</if>
+            <if test="delFlag!=null">
+				#{delFlag},
+			</if>
+        </trim>
+    </insert>
+
+    <update id="updateTeacher" parameterType="TeacherVO">
+        UPDATE <include refid="_table"/>
+        <set>
+            <if test="name!=null and ''!=name">
+				`name` = #{name},
+			</if>
+            <if test="password!=null and ''!=password">
+				`password` = #{password},
+			</if>
+            <if test="modified!=null">
+				modified = #{modified},
+			</if>
+            <if test="modifyPwdTime!=null and ''!=modifyPwdTime">
+				modify_pwd_time = #{modifyPwdTime},
+			</if>
+            <if test="delFlag!=null">
+				del_flag = #{delFlag},
+			</if>
+        </set>
+        <include refid="_primaryKey_condition"/>
+    </update>
+
+    <select id="findDetailTeacher" resultMap="teacherMapper" parameterType="TeacherVO">
+        SELECT
+        <include refid="_fields"/>
+        FROM <include refid="_table"/>
+        <include refid="_primaryKey_condition"/>
+    </select>
+
+    <select id="listTeacher" resultMap="teacherMapper" parameterType="TeacherVO">
+        SELECT
+        <include refid="_fields"/>
+        FROM <include refid="_table"/>
+        <include refid="_condition"/>
+	    <include refid="_order"/>
+    </select>
+
+    <select id="listTeacherPage" resultMap="teacherMapper" parameterType="TeacherVO">
+        SELECT
+        <include refid="_fields"/>
+        FROM <include refid="_table"/>
+        <include refid="_condition"/>
+        <include refid="_order"/>
+        <if test="startRecord != null and pageSize != null and pageSize >0">
+            limit #{startRecord},#{pageSize}
+        </if>
+	    <if test="!(startRecord != null and pageSize != null and pageSize >0)">
+		    limit 0,15
+	    </if>
+    </select>
+
+    <select id="countTeacher" resultType="java.lang.Integer" parameterType="TeacherVO">
+        SELECT
+        COUNT(*)
+        FROM <include refid="_table"/>
+        <include refid="_condition"/>
+    </select>
+
+    <delete id="deleteTeacher" parameterType="TeacherVO">
+        update teacher set del_flag = 1 where id = #{id};
+        <!--DELETE FROM <include refid="_table"/>-->
+        <!--<include refid="_primaryKey_condition"/>-->
+    </delete>
+
+</mapper>

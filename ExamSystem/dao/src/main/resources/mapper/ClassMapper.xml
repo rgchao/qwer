@@ -1,0 +1,208 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<mapper namespace="com.jf.exam.mapper.ClassMapper">
+
+	<resultMap id="classMapper" type="ClassDO">
+        <result property="id" column="id"/>
+        <result property="cno" column="cno"/>
+        <result property="fkGrade" column="fk_grade"/>
+        <result property="fkMajor" column="fk_major"/>
+        <result property="delFlag" column="del_flag"/>
+	</resultMap>
+
+    <sql id="_table">
+        class
+	</sql>
+
+	<sql id="_fields">
+		id,cno,fk_grade,fk_major,del_flag
+	</sql>
+
+	<sql id="_condition">
+		<trim prefix="WHERE" prefixOverrides="AND|OR">
+            <if test="id!=null">
+				AND id = #{id}
+			</if>
+            <if test="cno!=null">
+				AND cno = #{cno}
+			</if>
+            <if test="fkGrade!=null">
+				AND fk_grade = #{fkGrade}
+			</if>
+            <if test="fkMajor!=null">
+				AND fk_major = #{fkMajor}
+			</if>
+            AND  del_flag = 0
+            <!--<if test="delFlag!=null">-->
+				<!--AND del_flag = #{delFlag}-->
+			<!--</if>-->
+		</trim>
+	</sql>
+
+	<sql id="_primaryKey_condition">
+		WHERE id = #{id}
+	</sql>
+
+	<sql id="_order">
+        <if test="sortByParams!= null and sortByParams.size()>0" >
+            ORDER BY
+            <foreach collection="sortByParams.keys" index="index" item="sortByParamKey" separator=",">
+                <![CDATA[${sortByParamKey} ${sortByParams[sortByParamKey]}]]>
+            </foreach>
+        </if>
+	</sql>
+
+    <insert id="addClass" parameterType="ClassVO" keyProperty="id">
+        INSERT INTO <include refid="_table"/>
+        <trim prefix="(" suffix=")" suffixOverrides=",">
+            <if test="id!=null">
+				id,
+			</if>
+            <if test="cno!=null">
+				cno,
+			</if>
+            <if test="fkGrade!=null">
+				fk_grade,
+			</if>
+            <if test="fkMajor!=null">
+				fk_major,
+			</if>
+            <if test="delFlag!=null">
+				del_flag,
+			</if>
+        </trim>
+        <trim prefix="values (" suffix=")" suffixOverrides=",">
+            <if test="id!=null">
+				#{id},
+			</if>
+            <if test="cno!=null">
+				#{cno},
+			</if>
+            <if test="fkGrade!=null">
+				#{fkGrade},
+			</if>
+            <if test="fkMajor!=null">
+				#{fkMajor},
+			</if>
+            <if test="delFlag!=null">
+				#{delFlag},
+			</if>
+        </trim>
+    </insert>
+
+    <update id="updateClass" parameterType="ClassVO">
+        UPDATE <include refid="_table"/>
+        <set>
+            <if test="cno!=null">
+				cno = #{cno},
+			</if>
+            <if test="fkGrade!=null">
+				fk_grade = #{fkGrade},
+			</if>
+            <if test="fkMajor!=null">
+				fk_major = #{fkMajor},
+			</if>
+            <if test="delFlag!=null">
+				del_flag = #{delFlag},
+			</if>
+        </set>
+        <include refid="_primaryKey_condition"/>
+    </update>
+
+    <select id="findDetailClass" resultMap="classMapper" parameterType="ClassVO">
+        SELECT
+        <include refid="_fields"/>
+        FROM <include refid="_table"/>
+        <include refid="_primaryKey_condition"/>
+    </select>
+
+    <select id="listClass" resultMap="classMapper" parameterType="ClassVO">
+        SELECT
+        <include refid="_fields"/>
+        FROM <include refid="_table"/>
+        <include refid="_condition"/>
+	    <include refid="_order"/>
+    </select>
+
+    <select id="listClassPage" resultMap="classMapper" parameterType="ClassVO">
+        SELECT
+        <include refid="_fields"/>
+        FROM <include refid="_table"/>
+        <include refid="_condition"/>
+        <include refid="_order"/>
+        <if test="startRecord != null and pageSize != null and pageSize >0">
+            limit #{startRecord},#{pageSize}
+        </if>
+	    <if test="!(startRecord != null and pageSize != null and pageSize >0)">
+		    limit 0,15
+	    </if>
+    </select>
+
+    <select id="countClass" resultType="java.lang.Integer" parameterType="ClassVO">
+        SELECT
+        COUNT(*)
+        FROM <include refid="_table"/>
+        <include refid="_condition"/>
+    </select>
+
+    <update id="deleteClass" parameterType="ClassVO">
+        update class set del_flag = 1 where id = #{id};
+        <!--DELETE FROM-->
+        <!--<include refid="_table"/>-->
+        <!--<include refid="_primaryKey_condition"/>-->
+    </update>
+
+    <select id="listClazzAssociation" parameterType="classVO" resultMap="listClazzAssociationMap">
+        select
+        c.id id,
+        c.cno cno,
+        g.id fk_grade,
+        g.grade grade,
+        m.id fk_major,
+        m.name name
+        from
+        class c
+        LEFT JOIN grade g ON c.fk_grade=g.id
+        LEFT JOIN major m on c.fk_major = m.id
+        WHERE c.del_flag = 0
+        <if test="fkGrade!=null and fkGrade !=0">
+            AND c.fk_grade=#{fkGrade}
+        </if>
+        <if test="fkMajor!=null and fkMajor !=0">
+            AND  c.fk_major=#{fkMajor}
+        </if>
+
+    </select>
+    <!--根据试卷id查询适用班级-->
+    <select id="listByExam" resultMap="listClazzAssociationMap" parameterType="examVO">
+        select
+        c.id id,
+        c.cno cno,
+        g.id fk_grade,
+        g.grade grade,
+        m.id fk_major,
+        m.name name
+        from
+        class c
+        LEFT join grade g ON  c.fk_grade=g.id
+        LEFT JOIN  major m on c.fk_major = m.id
+        where c.del_flag=0
+        AND c.id IN (SELECT fk_class from exam_class ec  where ec.fk_exam=#{id})
+    </select>
+    <resultMap id="listClazzAssociationMap" type="classListVO">
+        <id property="id" column="id"/>
+        <result property="cno" column="cno"/>
+        <!--年级-->
+        <association property="grade" javaType="gradeDO">
+            <id property="id" column="fk_grade"/>
+            <result property="grade" column="grade"/>
+        </association>
+        <!--专业-->
+        <association property="major" javaType="majorDO">
+            <id property="id" column="fk_major"/>
+            <result property="name" column="name"/>
+        </association>
+    </resultMap>
+
+</mapper>

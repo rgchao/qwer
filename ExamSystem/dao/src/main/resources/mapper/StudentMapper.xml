@@ -1,0 +1,231 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<mapper namespace="com.jf.exam.mapper.StudentMapper">
+
+	<resultMap id="studentMapper" type="StudentDO">
+        <result property="id" column="id"/>
+        <result property="sno" column="sno"/>
+        <result property="name" column="name"/>
+        <result property="password" column="password"/>
+        <result property="fkClass" column="fk_class"/>
+        <result property="modified" column="modified"/>
+        <result property="delFlag" column="del_flag"/>
+	</resultMap>
+
+    <sql id="_table">
+        student
+	</sql>
+
+	<sql id="_fields">
+		id,sno,`name`,`password`,fk_class,modified,del_flag
+	</sql>
+
+	<sql id="_condition">
+		<trim prefix="WHERE" prefixOverrides="AND|OR">
+            <if test="id!=null and ''!=id">
+				AND id = #{id}
+			</if>
+            <if test="sno!=null and ''!=sno">
+				AND sno = #{sno}
+			</if>
+            <if test="name!=null and ''!=name">
+				AND `name` = #{name}
+			</if>
+            <if test="password!=null and ''!=password">
+				AND `password` = #{password}
+			</if>
+            <if test="fkClass!=null">
+				AND fk_class = #{fkClass}
+			</if>
+            <if test="modified!=null">
+				AND modified = #{modified}
+			</if>
+            <if test="delFlag!=null and ''!=delFlag">
+				AND del_flag = #{delFlag}
+			</if>
+		</trim>
+	</sql>
+
+	<sql id="_primaryKey_condition">
+		WHERE id = #{id}
+	</sql>
+
+	<sql id="_order">
+        <if test="sortByParams!= null and sortByParams.size()>0" >
+            ORDER BY
+            <foreach collection="sortByParams.keys" index="index" item="sortByParamKey" separator=",">
+                <![CDATA[${sortByParamKey} ${sortByParams[sortByParamKey]}]]>
+            </foreach>
+        </if>
+	</sql>
+
+    <insert id="addStudent" parameterType="StudentVO" keyProperty="id">
+        INSERT INTO <include refid="_table"/>
+        <trim prefix="(" suffix=")" suffixOverrides=",">
+            <if test="id!=null and ''!=id">
+				id,
+			</if>
+            <if test="sno!=null and ''!=sno">
+				sno,
+			</if>
+            <if test="name!=null and ''!=name">
+				`name`,
+			</if>
+            <if test="password!=null and ''!=password">
+				`password`,
+			</if>
+            <if test="fkClass!=null">
+				fk_class,
+			</if>
+            <if test="modified!=null">
+				modified,
+			</if>
+            <if test="delFlag!=null and ''!=delFlag">
+				del_flag,
+			</if>
+        </trim>
+        <trim prefix="values (" suffix=")" suffixOverrides=",">
+            <if test="id!=null and ''!=id">
+				#{id},
+			</if>
+            <if test="sno!=null and ''!=sno">
+				#{sno},
+			</if>
+            <if test="name!=null and ''!=name">
+				#{name},
+			</if>
+            <if test="password!=null and ''!=password">
+				#{password},
+			</if>
+            <if test="fkClass!=null">
+				#{fkClass},
+			</if>
+            <if test="modified!=null">
+				#{modified},
+			</if>
+            <if test="delFlag!=null and ''!=delFlag">
+				#{delFlag},
+			</if>
+        </trim>
+    </insert>
+
+    <update id="updateStudent" parameterType="StudentVO">
+        UPDATE <include refid="_table"/>
+        <set>
+            <if test="sno!=null and ''!=sno">
+				sno = #{sno},
+			</if>
+            <if test="name!=null and ''!=name">
+				`name` = #{name},
+			</if>
+            <if test="password!=null and ''!=password">
+				`password` = #{password},
+			</if>
+            <if test="fkClass!=null">
+				fk_class = #{fkClass},
+			</if>
+            <if test="modified!=null">
+				modified = #{modified},
+			</if>
+            <if test="delFlag!=null and ''!=delFlag">
+				del_flag = #{delFlag},
+			</if>
+        </set>
+        <include refid="_primaryKey_condition"/>
+    </update>
+
+    <select id="findDetailStudent" resultMap="studentMapper" parameterType="StudentVO">
+        SELECT
+        <include refid="_fields"/>
+        FROM <include refid="_table"/>
+        <include refid="_primaryKey_condition"/>
+    </select>
+
+    <select id="listStudent" resultMap="studentMapper" parameterType="StudentVO">
+        SELECT
+        <include refid="_fields"/>
+        FROM <include refid="_table"/>
+        <include refid="_condition"/>
+	    <include refid="_order"/>
+    </select>
+
+    <select id="listStudentPage" resultMap="studentMapper" parameterType="StudentVO">
+        SELECT
+        <include refid="_fields"/>
+        FROM <include refid="_table"/>
+        <include refid="_condition"/>
+        <include refid="_order"/>
+        <if test="startRecord != null and pageSize != null and pageSize >0">
+            limit #{startRecord},#{pageSize}
+        </if>
+	    <if test="!(startRecord != null and pageSize != null and pageSize >0)">
+		    limit 0,15
+	    </if>
+    </select>
+
+    <select id="listAssociation" parameterType="studentVO" resultMap="listAssociationMap">
+        SELECT
+        s.id sid,
+        s.sno sno,
+        s.name sname,
+        c.id cid,
+        c.cno cno,
+        g.id gid,
+        g.grade grade,
+        m.id mid,
+        m.name name
+        from
+        student s
+        LEFT JOIN  class c on s.fk_class = c.id
+        LEFT JOIN grade g on c.fk_grade = g.id
+        LEFT  JOIN major m on c.fk_major = m.id
+        WHERE s.del_flag=0
+        <if test="name!=null and name!=''">
+            and s.name=#{name}
+        </if>
+
+    </select>
+
+
+    <!--
+        获取
+            学生表
+            年级表
+            专业表
+            班级表
+    -->
+    <select id="countStudent" resultType="java.lang.Integer" parameterType="StudentVO">
+        SELECT
+        COUNT(*)
+        FROM <include refid="_table"/>
+        <include refid="_condition"/>
+    </select>
+    <select id="listStudents" resultType="studentDO" parameterType="studentVO">
+        select * from student where sno=#{sno}
+    </select>
+    <resultMap id="listAssociationMap" type="studentListVO">
+        <id property="id" column="sid"/>
+        <result property="name" column="sname"/>
+        <result property="sno" column="sno"/>
+        <association property="clazz" javaType="classDO">
+            <id property="id" column="cid"/>
+            <result property="cno" column="cno"/>
+        </association>
+        <association property="grade" javaType="gradeDO">
+            <id property="id" column="gid"/>
+            <result property="grade" column="grade"/>
+        </association>
+        <association property="major" javaType="majorDO">
+            <id property="id" column="mid"/>
+            <result property="name" column="name"/>
+        </association>
+    </resultMap>
+
+    <update id="deleteStudent" parameterType="StudentVO">
+        update student set del_flag=1 where id=#{id};
+        <!--DELETE FROM <include refid="_table"/>-->
+        <!--<include refid="_primaryKey_condition"/>-->
+    </update>
+
+</mapper>
