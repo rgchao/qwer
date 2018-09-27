@@ -13,5 +13,13 @@
         <module name="web" />
       </profile>
     </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="dao" target="1.8" />
+      <module name="ExamSystem" target="1.8" />
+      <module name="pojo" target="1.8" />
+      <module name="service" target="1.8" />
+      <module name="utils" target="1.8" />
+      <module name="web" target="1.8" />
+    </bytecodeTargetLevel>
   </component>
 </project>
